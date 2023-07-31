@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.initQuestion():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "question">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.mappingComponentQuestion():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.countFalseAnswer">
+            </PersistentString>
+            <PersistentString
+               value = "key.caseInsensitiveCompare(self.userAnswer.text ?? &quot;&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "answerKey">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.askSurvery(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "countFalseAnswer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
