@@ -1,6 +1,6 @@
 ## Simple Game Family One Houndred IOS
-#Tech Stack
+# Tech Stack
  - IOS
  - Swift
-#Result
+# Result
 - ![](/screenshoot/screenshoot.gif)
