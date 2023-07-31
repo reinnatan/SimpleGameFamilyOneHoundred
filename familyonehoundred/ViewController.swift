@@ -139,17 +139,28 @@ class ViewController: UIViewController {
         let keys = [String] (question.keys)
         let selectedKey = keys[index]
         let answerKey = [String](self.question[selectedKey]!.keys)
+       
         
         if answerKey[0] == correctAnswer{
-            self.survey1.text = answerKey[0]
+            if let number = self.question[selectedKey]?[answerKey[0]]{
+                self.survey1.text =  answerKey[0]+" \(String(describing: number))"
+            }
         }else if answerKey[1] == correctAnswer{
-            self.survey2.text = answerKey[1]
+            if let number = self.question[selectedKey]?[answerKey[1]]{
+                self.survey2.text =  answerKey[1]+" \(String(describing: number))"
+            }
         }else if answerKey[2] == correctAnswer{
-            self.survey3.text = answerKey[2]
+            if let number = self.question[selectedKey]?[answerKey[2]]{
+                self.survey3.text =  answerKey[2]+" \(String(describing: number))"
+            }
         }else if answerKey[3] == correctAnswer{
-            self.survey4.text = answerKey[3]
+            if let number = self.question[selectedKey]?[answerKey[3]]{
+                self.survey4.text =  answerKey[3]+" \(String(describing: number))"
+            }
         }else if answerKey[4] == correctAnswer{
-            self.survey5.text = answerKey[4]
+            if let number0 = self.question[selectedKey]?[answerKey[4]]{
+                self.survey5.text =  answerKey[4]+" \(String(describing: number0))"
+            }
         }
         
         countCorrectAnswer = countCorrectAnswer + 1

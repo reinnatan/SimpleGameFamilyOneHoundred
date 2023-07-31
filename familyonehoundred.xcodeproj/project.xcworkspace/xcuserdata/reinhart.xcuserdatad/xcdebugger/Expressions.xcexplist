@@ -11,6 +11,22 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "ViewController.askSurvery(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "countFalseAnswer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.fillCorrectAnswer(correctAnswer:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.question[selectedKey]![answerKey[2]]!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.mappingComponentQuestion():ViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -21,14 +37,6 @@
             </PersistentString>
             <PersistentString
                value = "answerKey">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "ViewController.askSurvery(_:):ViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "countFalseAnswer">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
